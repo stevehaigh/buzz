@@ -1,4 +1,10 @@
+sudo: required
+
+services:
+  - docker
+
 language: python
+
 script:
   - python -m pytest -v
 
